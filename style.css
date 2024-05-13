@@ -265,7 +265,35 @@
   #carousel2-btn {
     margin: 46em 18em 0 0;
   }
+
+  .card1 {
+    height: 480px;
+    width: 190px;
+  }
+
+  .card1 > img {
+    height: 200px;
+    width: 190px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+  }
 }
+/* 
+@media (width <= 1000px){
+  .card1 {
+    height: 420px;
+    width: 140px;
+  }
+
+  .card1 > img {
+    height: 200px;
+    width: 140px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+  }
+} */
 
 @media (width <= 720px) {
   #carousel1-btn {
@@ -274,6 +302,19 @@
 
   #carousel2-btn {
     margin: 46em 5em 0 0;
+  }
+
+  .card1 {
+    height: 480px;
+    width: 190px;
+  }
+
+  .card1 > img {
+    height: 200px;
+    width: 190px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
   }
 }
 
