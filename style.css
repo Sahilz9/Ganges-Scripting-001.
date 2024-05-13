@@ -148,6 +148,8 @@
   height: 600px;
   width: 100vw;
   object-fit: cover;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 
   position: relative;
 }
