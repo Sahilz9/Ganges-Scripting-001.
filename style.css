@@ -159,7 +159,7 @@
   color: white;
 }
 
-.explore-container{
+.explore-container {
   margin-top: 5em;
 }
 
@@ -168,7 +168,9 @@
   justify-content: center;
   background-color: white;
   gap: 50px;
-  padding: 20px 0 ;
+  padding: 20px 0;
+  height: auto;
+  flex-wrap: wrap;
 }
 
 .explore-maven > div > div {
@@ -178,8 +180,16 @@
   border-radius: 50%;
 }
 
-.explore-maven>div>p{
+.explore-maven > div > div:hover {
+  background-color: #c2c2c2;
+}
+
+.explore-maven > div > p {
   text-align: center;
+}
+
+.explore-maven > div > p:hover {
+  text-decoration: underline;
 }
 
 .explore-maven > div > div > img {
