@@ -154,11 +154,37 @@
   position: relative;
 }
 
-.carousel-button:hover{
+.carousel-button:hover {
   background-color: black;
   color: white;
 }
 
+.explore-container{
+  margin-top: 5em;
+}
+
+.explore-maven {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  gap: 50px;
+  padding: 20px 0 ;
+}
+
+.explore-maven > div > div {
+  background-color: #f5f5f5;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.explore-maven>div>p{
+  text-align: center;
+}
+
+.explore-maven > div > div > img {
+  margin: 30px 25px;
+}
 
 /* <!-- Explore Our Range, Fulfilling Potential through Technology and Infrastructure Solutions part Pavan  --> */
 .card:hover {
